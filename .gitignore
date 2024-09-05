@@ -128,3 +128,15 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# User Data
+cli-app/data/*
+!cli-app/data/input/.gitkeep
+!cli-app/data/output/cleaned-items/details/.gitkeep
+
+
+# Dummy Project
+dummyNpmProject/*
+!dummyNpmProject/.gitkeep 
+
+.DS_Store
